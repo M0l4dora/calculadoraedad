@@ -61,10 +61,10 @@ bool esFechaFutura(int d, int m, int a, int diaActual, int mesActual, int anioAc
 int main()
 {
     int diaN, mesN, anioN;
-    int diaA = 8, mesA = 7, anioA = 2026; // Fecha actual para el ejercicio
+    int diaA = 12, mesA = 11, anioA = 2026; // Fecha actual para el ejercicio
 
     cout << "=====================================================" << endl;
-    cout << "  CALCULADORA DE EDAD DE: Din Djarin                 " << endl;
+    cout << "  CALCULADORA DE EDAD                " << endl;
     cout << "=====================================================" << endl;
 
     cout << "Ingrese Dia, Mes y Anio de nacimiento (separados por espacios): ";
