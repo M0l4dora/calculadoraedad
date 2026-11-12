@@ -53,13 +53,13 @@ def pedir_fecha():
 
 # Código principal
 print("=====================================================")
-print("  CALCULADORA EN PYTHON DE: Din Djarin                ")
+print("  CALCULADORA EN PYTHON                ")
 print("=====================================================")
 
 try:
     diaN, mesN, anioN = pedir_fecha()
 
-    diaA, mesA, anioA = 8, 7, 2026
+    diaA, mesA, anioA = 12, 11, 2026
 
     if not es_fecha_valida(diaN, mesN, anioN):
         print("[ERROR] La fecha ingresada no es valida.")
