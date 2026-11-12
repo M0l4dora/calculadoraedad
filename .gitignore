@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- C++ / compilador ---
+*.exe
+*.out
+*.o
+*.obj
+*.gch
+*.ilk
+*.pdb
+*.dSYM/
+a.out
+proyecto_cpp/main
+
+# --- Editores / IDE ---
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*~
+
+# --- Sistema operativo ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Archivos pesados / temporales ---
+*.zip
+*.rar
+*.7z
+*.log
